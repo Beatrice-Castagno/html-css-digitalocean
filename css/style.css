@@ -1,0 +1,79 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.header_top {
+  height:60px;
+  line-height: 60px;
+}
+
+ul {
+  margin-left: 0px;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.logo {
+  height: 30px;
+}
+
+.central_nav, .signup_nav {
+  padding-top: 4px;
+  font-weight: 500;
+}
+
+
+.central_nav a, .signup_nav a {
+  color: black;
+}
+
+.central_nav li, .signup_nav li {
+  margin-right: 8px;
+}
+
+.btn_signup {
+  background: white;
+  border: 1px solid #006aff;
+  color: #006aff;
+  font-weight: 500;
+}
+
+.btn_signup:hover {
+  background: #006aff;
+  color: white;
+  transition: 0.5s;
+}
+
+.hamburger {
+  position:absolute;
+  left:-9999px;
+  font-size: 30px;
+  color: #006aff;
+}
+/* RESPONSIVE */
+/* DESKTOP */
+@media screen and (min-width:992px) and (max-width:1200px) {
+}
+
+/* TABLLET */
+@media screen and (min-width:768px) and (max-width:991px) {
+
+ .central_nav ul, .signup_nav ul {
+   display: none;
+ }
+ .hamburger {
+   left: 0px;
+ }
+
+}
+
+/* SMARTPHONE */
+@media screen and (max-width:767px) {
+  .central_nav ul, .signup_nav ul {
+    display: none;
+  }
+  .hamburger {
+    left: 0px;
+  }
+}
