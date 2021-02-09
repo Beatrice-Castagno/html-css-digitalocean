@@ -1,17 +1,16 @@
+/* MIX */
 body {
   font-family: 'Roboto', sans-serif;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
+/* HEADER  */
 .header_top {
   height:60px;
   line-height: 60px;
-}
-
-ul {
-  margin-left: 0px;
-}
-a:hover {
-  text-decoration: none;
 }
 
 .logo {
@@ -23,7 +22,6 @@ a:hover {
   font-weight: 500;
 }
 
-
 .central_nav a, .signup_nav a {
   color: black;
 }
@@ -31,7 +29,7 @@ a:hover {
 .central_nav li, .signup_nav li {
   margin-right: 8px;
 }
-
+/* bottoni */
 .btn_signup {
   background: white;
   border: 1px solid #006aff;
@@ -44,6 +42,7 @@ a:hover {
   color: white;
   transition: 0.5s;
 }
+/* /bottoni */
 
 .hamburger {
   position:absolute;
@@ -51,29 +50,34 @@ a:hover {
   font-size: 30px;
   color: #006aff;
 }
+/* /HEADER */
 /* RESPONSIVE */
 /* DESKTOP */
 @media screen and (min-width:992px) and (max-width:1200px) {
+
 }
 
 /* TABLLET */
 @media screen and (min-width:768px) and (max-width:991px) {
-
+  /* header top */
  .central_nav ul, .signup_nav ul {
    display: none;
  }
  .hamburger {
    left: 0px;
  }
+ /* /header top */
 
 }
 
 /* SMARTPHONE */
 @media screen and (max-width:767px) {
+  /* header_top */
   .central_nav ul, .signup_nav ul {
     display: none;
   }
   .hamburger {
     left: 0px;
   }
+  /* /header_top */
 }
