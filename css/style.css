@@ -7,6 +7,10 @@ a:hover {
   text-decoration: none;
 }
 
+.color_blue {
+  color: #006aff;
+}
+
 /* HEADER  */
 .header_top {
   height:60px;
@@ -54,35 +58,96 @@ a:hover {
 
 /* hero */
 .hero {
-  padding-top: 100px;
-  height: 75vh;
+  padding: 100px;
   background-color:#0069ff;
   background-size: cover;
   background-position: center;
   background-image:url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
 }
 
-.text_left_hero {
+.box_left_hero {
   padding-top: 80px;
 }
 
 .hero h1 {
-  font-size: 60px;
+  font-size: 62px;
   color: white;
 }
 
-.hero p {
+.box_left_hero p {
   font-weight: 500;
   font-size: 20px;
   color: lightgrey;
+  line-height: 32px;
 }
+
+.box_right_hero {
+  margin-left: 50px;
+  margin-top:72px;
+  border-radius: 5px;
+  background-color: white;
+  padding:20px;
+}
+.box_right_hero h2 {
+ color: black;
+ font-weight: 700;
+}
+
+.box_right_hero p {
+  padding-top: 25px;
+  font-weight: 500;
+}
+
+.form_hero input{
+  width:100%;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  padding: 6px;
+  font-size: 20px;
+}
+
+.btn_hero {
+  width:100%;
+  margin-top: 15px;
+  padding: 10px;
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn_account {
+  color:white;
+  background-color: rgb(66, 133, 244);
+}
+
+.btn_account:hover {
+  background-color: #006aff;
+}
+
+.btn_google {
+  background-color: white;
+  background-image: url("../img/google-icon.png");
+  background-position: 5% center;
+  background-size: 5%;
+  background-repeat: no-repeat;
+  box-shadow: 1px 1px 2px 1px lightgray;
+  color: dimgray;
+}
+
 /* /hero */
 
 /* /HEADER */
 /* RESPONSIVE */
 /* DESKTOP */
 @media screen and (min-width:992px) and (max-width:1200px) {
-
+  /* hero */
+  .box_left_hero h1 {
+    font-size: 50px;
+  }
+  .box_left_hero p {
+    font-size: 18px;
+  }
+  /* /hero */
 }
 
 /* TABLLET */
@@ -95,7 +160,13 @@ a:hover {
    left: 0px;
  }
  /* /header top */
+ /* hero */
 
+ .box_left_hero h1 {
+   font-size: 40px;
+ }
+
+ /* /hero */
 }
 
 /* SMARTPHONE */
@@ -108,4 +179,25 @@ a:hover {
     left: 0px;
   }
   /* /header_top */
+  /* hero */
+  .hero {
+    padding: 10px;
+  }
+
+  .box_right_hero {
+    margin-left: 0px;
+  }
+
+  .box_left_hero {
+    margin-left: 50px;
+  }
+
+  .box_right_hero{
+    margin: 20px 0;
+  }
+
+  .box_left_hero h1 {
+    font-size: 40px;
+  }
+  /* /hero */
 }
