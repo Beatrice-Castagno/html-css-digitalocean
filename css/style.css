@@ -11,6 +11,7 @@ a:hover {
 .header_top {
   height:60px;
   line-height: 60px;
+  background-color: white;
 }
 
 .logo {
@@ -50,6 +51,33 @@ a:hover {
   font-size: 30px;
   color: #006aff;
 }
+
+/* hero */
+.hero {
+  padding-top: 100px;
+  height: 75vh;
+  background-color:#0069ff;
+  background-size: cover;
+  background-position: center;
+  background-image:url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
+}
+
+.text_left_hero {
+  padding-top: 80px;
+}
+
+.hero h1 {
+  font-size: 60px;
+  color: white;
+}
+
+.hero p {
+  font-weight: 500;
+  font-size: 20px;
+  color: lightgrey;
+}
+/* /hero */
+
 /* /HEADER */
 /* RESPONSIVE */
 /* DESKTOP */

@@ -22,42 +22,59 @@
 <body>
   <!-- INTESTAZIONE -->
   <header>
-    <div class="container header_top">
-      <div class="row">
-        <!-- logo -->
-        <div class="col-xs-11 col-md-1">
-         <a href="#"><img class="logo" src="img/logo.png" alt="logo-digital-ocean"></a>
+    <div class="header_top navbar-fixed-top">
+      <div class="container">
+        <div class="row">
+          <!-- logo -->
+          <div class="col-xs-11 col-md-1">
+           <a href="#"><img class="logo" src="img/logo.png" alt="logo-digital-ocean"></a>
+          </div>
+          <!-- /logo -->
+          <!-- hamburger -->
+          <div class="col-xs-1">
+            <span class="hamburger text-right"><i class="fas fa-bars"></i></span>
+          </div>
+          <!-- /hamburger -->
+          <!-- /nav centrale -->
+          <div class="col-md-5">
+            <nav class="central_nav">
+              <ul class="list-inline text-right">
+                <li><a href="#">Products <i class="fas fa-angle-down"></i></a></li>
+                <li><a href="#">Customers</a></li>
+                <li><a href="#">Community <i class="fas fa-angle-down"></i></a></li>
+                <li><a href="#">Pricing</a></li>
+              </ul>
+            </nav>
+          </div>
+          <!-- /nav centrale -->
+          <!-- nav sign up -->
+          <div class="col-md-4">
+            <nav class="signup_nav">
+              <ul class="list-inline text-right">
+                <li><a href="#">Doc</a></li>
+                <li><a href="#">Support <i class="fas fa-angle-down"></i></a></li>
+                <li><a href="#">Login</a></li>
+                <button class="btn btn_signup" type="submit" name="button">Sign Up</button>
+              </ul>
+            </nav>
+          </div>
+          <!-- /nav sign up -->
         </div>
-        <!-- /logo -->
-        <!-- hamburger -->
-        <div class="col-xs-1">
-          <span class="hamburger text-right"><i class="fas fa-bars"></i></span>
+      </div>
+    </div>
+    <div class="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <div class="text_left_hero">
+              <h1>The simplest cloud platform for developers &amp; teams</h1>
+              <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand.</p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6">
+
+          </div>
         </div>
-        <!-- /hamburger -->
-        <!-- /nav centrale -->
-        <div class="col-md-5">
-          <nav class="central_nav">
-            <ul class="list-inline text-right">
-              <li><a href="#">Products <i class="fas fa-angle-down"></i></a></li>
-              <li><a href="#">Customers</a></li>
-              <li><a href="#">Community <i class="fas fa-angle-down"></i></a></li>
-              <li><a href="#">Pricing</a></li>
-            </ul>
-          </nav>
-        </div>
-        <!-- /nav centrale -->
-        <!-- nav sign up -->
-        <div class="col-md-4">
-          <nav class="signup_nav">
-            <ul class="list-inline text-right">
-              <li><a href="#">Doc</a></li>
-              <li><a href="#">Support <i class="fas fa-angle-down"></i></a></li>
-              <li><a href="#">Login</a></li>
-              <button class="btn btn_signup" type="submit" name="button">Sign Up</button>
-            </ul>
-          </nav>
-        </div>
-        <!-- /nav sign up -->
       </div>
     </div>
   </header>
