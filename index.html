@@ -68,7 +68,7 @@
         <div class="row">
           <!-- box sinistro testo -->
           <div class="col-xs-12 col-sm-6">
-            <div class="box_left_hero">
+            <div class="box_left_hero p_main">
               <h1>The simplest cloud platform for developers &amp; teams</h1>
               <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand.</p>
             </div>
@@ -158,11 +158,11 @@
     <!-- /sezione loghi -->
     <!-- sezione deploy -->
     <section>
-      <div class="section_deploy color_gray">
+      <div class="section_deploy">
         <div class="container">
           <!-- riga titolo -->
           <div class="row">
-            <div class="title_deploy">
+            <div class="title_deploy p_main">
             <div class="col-xs-12 text-center">
               <h2>Deploy and scale seamlessly</h2>
               <p>Our optimized configuration process saves your team time when running and scaling distribuited applications, AI &amp; machine learning workloads, hosted services, client websites, or CI/CD environments</p>
@@ -189,34 +189,42 @@
             <!-- /colonna sinistra lista -->
             <!-- colonna destra box -->
             <div class="col-xs-12 col-sm-10">
-              <div class="boxes_right_deploy">
+              <div class="boxes_right_deploy p_card">
                 <!-- riga superiore -->
                 <div class="row">
+                  <!-- box sinistro superiore -->
                   <div class="col-xs-12 col-sm-6">
-                    <img src="img/cluster-deploy.svg" alt="cluster-deploy">
+                    <img src="img/cluster-deploy.svg" alt="cluster-deploy-icon">
                     <h4>Cluster deployments</h4>
                     <p>Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our Api</p>
                   </div>
+                  <!-- /box sinistro superiore-->
+                  <!-- box destro superiore-->
                   <div class="col-xs-12 col-sm-6">
-                    <img src="img/optimized-compute.svg" alt="optimized-deploy">
+                    <img src="img/optimized-compute.svg" alt="optimized-deploy-icon">
                     <h4>Optimized compute types</h4>
                     <p>Get the compute resources you need with Standard or Optimized Droplets.</p>
                   </div>
+                  <!-- /box destro superiore-->
                 </div>
                 <!-- /riga superiore -->
                 <!-- riga inferiore -->
                 <div class="row">
+                  <!-- box sinistro inferiore-->
                   <div class="col-xs-12 col-sm-6">
-                    <img src="img/one-click.svg" alt="one-click-deploy">
+                    <img src="img/one-click.svg" alt="one-click-deploy-icon">
                     <h4>One-click apps</h4>
                     <p>Skip the install and configuration process with pre-built open source image supporting Rails, Cassandra; Docker, and more.</p>
                   </div>
+                  <!-- /box sinistro inferiore-->
+                  <!-- box destro inferiore-->
                   <div class="col-xs-12 col-sm-6">
-                    <img src="img/global.svg" alt="global-deploy">
+                    <img src="img/global.svg" alt="global-deploy-icon">
                     <h4>Global availability</h4>
                     <p>Deploy to any of our data center regions around the world.</p>
                   </div>
                 </div>
+                <!-- /box destro inferiore -->
                 <!-- /riga inferiore -->
               </div>
             </div>
@@ -227,22 +235,28 @@
       </div>
     </section>
     <!-- /sezione deploy -->
+    <!-- sezione carosello -->
     <section>
       <div class="section_slide bg_lightgrey text-center">
         <div class="container">
           <div class="row">
-            <div class="col-xs-12">
+            <!-- riga testo -->
+            <div class="col-xs-12 p_main">
               <h2>Designed for developers</h2>
-              <p class="color_gray">Build more and spend less time maneging your infrastructure with our easy-to-use control pannel and API.</p>
+              <p>Build more and spend less time maneging your infrastructure with our easy-to-use control pannel and API.</p>
             </div>
+            <!-- /riga testo -->
+            <!-- slide -->
             <div class="col-xs-12">
               <div class="slide">
                 <i class="fas fa-angle-left"></i>
                 <img src="img/screenshot-create-droplet-12336b41.jpg" alt="droplet">
                 <i class="fas fa-angle-right"></i>
-                <p class="color_gray">Create compute servers in 55 seconds or less.</p>
+                <p>Create compute servers in 55 seconds or less.</p>
               </div>
             </div>
+            <!-- /slide -->
+            <!-- bullet -->
             <div class="col-xs-12">
               <div class="bullet">
                 <button type="button" name="button"></button>
@@ -251,10 +265,55 @@
                 <button type="button" name="button"></button>
               </div>
             </div>
+            <!-- bullet -->
           </div>
         </div>
       </div>
     </section>
+    <!-- /sezione carosello -->
+    <!-- sezione card features -->
+    <section>
+      <div class="section_features">
+        <div class="container">
+          <div class="row">
+            <!-- titolo -->
+            <div class="col-xs-12 text-center">
+              <h2>The features your business needs</h2>
+            </div>
+            <!-- /titolo -->
+            <!-- box icone e testo -->
+            <div class="box_text_features p_card">
+              <!-- box sinistro -->
+                <div class="col-xs-12 col-sm-4">
+                <img src="img/pred-pricing.svg" alt="pred-pricing-icon">
+                <h4>Predictable preacing</h4>
+                <p>Leave complex pricing structures behind. Always know what you'll pay month with a flat, industry-leading pricing structure.</p>
+                <a href="#">Preacing <i class="fal fa-angle-right"></i></a>
+              </div>
+              <!-- /box sinistro -->
+              <!-- box centrale -->
+              <div class="col-xs-12 col-sm-4">
+                <img src="img/world-class.svg" alt="world-class-icon">
+                <h4>World-class service</h4>
+                <p>Free round-the-clock technical support for all customers. You'll feel the love.</p>
+                <a href="#">Support <i class="fal fa-angle-right"></i></a>
+              </div>
+              <!-- /box centrale -->
+              <!-- box destro -->
+              <div class="col-xs-12 col-sm-4">
+                <img src="img/reliable-platform.svg" alt="reliable-platform-icon">
+                <h4>Reliable platform</h4>
+                <p>More than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99&#37; uptime SLA for all services.</p>
+                <a href="#">Security <i class="fal fa-angle-right"></i></a>
+              </div>
+              <!-- /box destro -->
+            </div>
+            <!-- /box icone e testo -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /sezione card features -->
   </main>
   <!-- /CORPO -->
 </body>
