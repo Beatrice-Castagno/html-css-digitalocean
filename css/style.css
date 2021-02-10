@@ -102,8 +102,6 @@ button, input {
 /* /bottoni */
 
 .hamburger {
-  position:absolute;
-  left:-9999px;
   font-size: 30px;
   color: #006aff;
 }
@@ -111,19 +109,19 @@ button, input {
 /* hero */
 .hero {
   font-weight: 500;
-  padding: 100px;
+  padding: 100px 0;
   background-color:#0069ff;
   background-size: cover;
   background-position: center;
-  background-image:url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
+  background-image: url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
 }
 
 .box_left_hero {
-  padding-top: 80px;
+  margin-top: 80px;
 }
 
 .hero h1 {
-  font-size: 62px;
+  font-size: 60px;
   color: white;
 }
 
@@ -132,11 +130,10 @@ button, input {
 }
 
 .box_right_hero {
-  margin-left: 50px;
   margin-top:72px;
   border-radius: 5px;
   background-color: white;
-  padding:20px;
+  padding:25px;
 }
 
 .box_right_hero p {
@@ -178,7 +175,6 @@ button, input {
   box-shadow: 1px 1px 2px 1px lightgray;
   color: dimgray;
 }
-
 /* /hero */
 /* /HEADER */
 /* MAIN */
@@ -193,7 +189,7 @@ button, input {
 }
 
 .section_logos img {
-  height:90px;
+  margin: 0 10px;
 }
 
 .section_logos a {
@@ -276,7 +272,7 @@ button, input {
   padding-bottom: 40px;
 }
 
-.box_text_features a {
+.section_features a, .section_features i {
   display: inline-block;
   color: #0069ff;
   font-weight: 500;
@@ -309,19 +305,19 @@ button, input {
  .central_nav ul, .signup_nav ul {
    display: none;
  }
- .hamburger {
-   left: 0px;
- }
  /* /header top */
  /* hero */
-
  .box_left_hero h1 {
    font-size: 40px;
  }
+
+ .form_hero input {
+   font-size: 16px;
+ }
  /* /hero */
  /* section_logos */
- .list_logo img {
-   height: 60px;
+ .section_logos img {
+   margin: 0 40px;
  }
  /* /section logos */
 }
@@ -329,41 +325,43 @@ button, input {
 /* SMARTPHONE */
 @media screen and (max-width:767px) {
   /* header_top */
+  .header_top {
+    padding: 0 20px;
+  }
+
   .central_nav ul, .signup_nav ul {
     display: none;
-  }
-  .hamburger {
-    left: 0px;
   }
   /* /header_top */
   /* hero */
   .hero {
-    padding: 15px;
-  }
-
-  .box_right_hero {
-    margin-left: 0px;
-  }
-
-  .box_left_hero {
-    margin-left: 50px;
-  }
-
-  .box_right_hero{
-    margin: 20px 0;
+    padding: 20px;
   }
 
   .box_left_hero h1 {
     font-size: 40px;
   }
-  /* /hero */
-  /* section_logos */
-  .list_logo img {
-    height: 100px;
+
+  .box_right_hero {
+    margin: 30px 0;
   }
 
+  .btn_hero, .form_hero input {
+    font-size: 16px;
+  }
+
+  .box_right_hero p {
+    margin-top: 18px;
+  }
+
+  /* /hero */
+  /* section_logos */
   .section_logos a {
     padding: 50px 0;
+  }
+
+  .section_logos img {
+    margin: 0 70px;
   }
   /* section_logos */
   /* section deploy */
@@ -389,10 +387,6 @@ button, input {
   .section_slide p {
     font-size: 16px;
     line-height: 25px;
-  }
-
-  .slide i {
-    display: none;
   }
 
   .slide img {
