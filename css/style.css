@@ -63,12 +63,20 @@ button, input {
   color: #5b6987;
 }
 
+.color_gray_footer {
+  color: #5b6886;
+}
+
 .color_blue {
   color: #006aff;
 }
 
 .bg_lightgrey {
   background-color: #f3f5f9;
+}
+
+.bg_darkblue {
+  background-color: rgb(1, 14, 40);
 }
 /* /colori */
 
@@ -423,8 +431,53 @@ button, input {
   background-color: rgba(225,225,225,0.9);
 }
 /* /section get started */
-
 /* /MAIN */
+
+/* FOOTER */
+ footer {
+   font-weight: 500;
+   padding: 60px;
+ }
+
+  .box_left_footer img {
+    margin-bottom: 20px;
+  }
+
+  .box_left_footer h5 {
+    opacity: 0.6;
+  }
+
+ .box_left_footer p {
+   font-size: 17px;
+ }
+
+  .icon_footer {
+    margin-top: 15px;
+    font-size: 30px;
+  }
+
+  .icon_footer a, .list_footer a {
+    color: #5b6886;
+  }
+
+  .icon_footer a:hover {
+    color: white;
+  }
+
+  .list_footer li:first-child {
+    color: white;
+    font-size: 22px;
+  }
+
+  .list_footer li {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+
+  .list_footer a:hover {
+    color: white;
+  }
+/* /FOOTER */
 
 /* RESPONSIVE */
 /* DESKTOP */
@@ -577,10 +630,24 @@ button, input {
     font-size: 16px;
   }
   /* /section rocketbox */
-  /* sectio get started */
+  /* section get started */
   .btn_getstarted {
     font-size: 15px;
   }
   /* /section get started */
+
+  /* footer */
+  .icon_footer {
+    font-size: 25px;
+  }
+
+  .list_footer li:first-child {
+    font-size: 20px;
+  }
+
+  .list_footer li {
+    font-size: 15px;
+  }
+  /* /footer */
 
 }
