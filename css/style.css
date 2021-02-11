@@ -91,7 +91,8 @@ button, input {
   height: 30px;
 }
 
-.central_nav, .signup_nav {
+.central_nav,
+.signup_nav {
   padding-top: 4px;
   font-weight: 500;
 }
@@ -100,7 +101,17 @@ button, input {
   color: black;
 }
 
-.central_nav li, .signup_nav li {
+.central_nav a:hover,
+.signup_nav a:hover {
+  color: #006aff;
+}
+.central_nav i,
+.signup_nav i {
+  margin-left: 5px;
+}
+
+.central_nav li,
+.signup_nav li {
   margin-right: 8px;
 }
 /* bottoni */
@@ -255,6 +266,7 @@ button, input {
   vertical-align: middle;
  margin-top: 30px;
  width: 60%;
+ box-shadow: 2px 2px 10px 5px lightgrey;
 }
 
 .slide p {
@@ -345,6 +357,10 @@ button, input {
   width:30%;
   color: #00d7d2;
 }
+
+.list_regions a:hover {
+  color: rgb(0, 105, 255);
+}
 /* /section_regions */
 /* section_rockerbox */
 #section_rockerbox {
@@ -353,6 +369,10 @@ button, input {
 
 #section_rockerbox h2 {
   margin: 30px 0;
+}
+
+.box_middle_rockerbox {
+  box-shadow: 1px 1px 10px 1px lightgrey;
 }
 
 .box_middle_rockerbox,
@@ -410,9 +430,10 @@ button, input {
 /* /section_rockerbox */
 /* section get started */
 #section_getstarted {
-  padding: 50px;
+  padding: 30px;
   background-image: url("https://images.prismic.io/www-static/b4ba92a9-0956-484b-9a3f-68ef4d550fd4_bg-home-cta.svg?auto=compress,format");
-  background-color: #0069ff
+  background-color: #0069ff;
+  background-size: cover;
 }
 
 #section_getstarted h2 {
@@ -425,6 +446,7 @@ button, input {
   border-radius: 5px;
   border: none;
   font-size: 16px;
+  margin-bottom: 30px;
 }
 
 .btn_getstarted:hover {
@@ -466,17 +488,18 @@ button, input {
 
   .list_footer li:first-child {
     color: white;
-    font-size: 22px;
+    font-size: 16px;
   }
 
   .list_footer li {
-    font-size: 18px;
+    font-size: 15px;
     margin: 10px 0;
   }
 
   .list_footer a:hover {
     color: white;
   }
+  
 /* /FOOTER */
 
 /* RESPONSIVE */
@@ -639,14 +662,6 @@ button, input {
   /* footer */
   .icon_footer {
     font-size: 25px;
-  }
-
-  .list_footer li:first-child {
-    font-size: 20px;
-  }
-
-  .list_footer li {
-    font-size: 15px;
   }
   /* /footer */
 
